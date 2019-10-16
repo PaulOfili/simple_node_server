@@ -1,0 +1,17 @@
+{
+  "name": "simple_node_server",
+  "version": "1.0.0",
+  "description": "A simple mode server to serve local json file",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Ofili",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
